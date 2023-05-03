@@ -1,0 +1,142 @@
+.tbl {
+  background-color: azure;
+  max-width: 120rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.tbl ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tbl table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tbl th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.tbl tr:nth-child(even) {
+  background-color: #3a3737;
+}
+
+.tbl tr:nth-child(odd) {
+  background-color: #545353;
+}
+
+.tbl th {
+  background-color: #0f0d0d;
+  color: rgb(255, 254, 254);
+}
+
+.tbl tr:hover {
+  background-color: rgb(244, 241, 240);
+  color: rgb(0, 0, 0);
+}
+.tbl .tcenter {
+  text-align: center;
+}
+
+.buttonList.view {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #027139;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonList.delete {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonList.update {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0b0458;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonList {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #065f07;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonList span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonList span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonList:hover span {
+  padding-right: 25px;
+}
+
+.buttonList:hover span:after {
+  opacity: 1;
+  right: 0;
+}

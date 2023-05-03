@@ -1,0 +1,30 @@
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.list p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-style: oblique;
+}
+.list li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.list a:hover,
+.list a.active {
+  background-color: #000000;
+}

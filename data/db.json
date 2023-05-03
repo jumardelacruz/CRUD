@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "5952"
+      },
+      "phone": "1235-433-2",
+      "website": "https://www/ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "5391"
+      },
+      "phone": "3-170-9623",
+      "website": "https://www.kale.biz",
+      "company": {
+        "name": "Robel-Corkery"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "3326"
+      },
+      "phone": "2549541628",
+      "website": "https://www.demarco.info",
+      "company": {
+        "name": "Keebler LLC"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "2350"
+      },
+      "phone": "1477935445",
+      "website": "https://www/ola.org",
+      "company": {
+        "name": "Considine-Lockman"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "address": {
+        "street": "Rex Trail",
+        "suite": "Suite 280",
+        "city": "Howemouth",
+        "zipcode": "5880"
+      },
+      "phone": "2100676132",
+      "website": "https://www.elvis.io",
+      "company": {
+        "name": "Johns Group"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "4516"
+      },
+      "phone": "1234561223",
+      "website": "https://www.acynthe.com",
+      "company": {
+        "name": "Abernathy Group"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "address": {
+        "street": "Dayna Park",
+        "suite": "Suite 449",
+        "city": "Bartholomebury",
+        "zipcode": "7649"
+      },
+      "phone": "976-06-079",
+      "website": "http://www.conrad.com",
+      "company": {
+        "name": "Yost and Sons"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "3142"
+      },
+      "phone": "024-648-38",
+      "website": "https://www.ambrose.net",
+      "company": {
+        "name": "Hoeger LLC"
+      }
+    },
+    {
+      "name": "Lourdes Orzame",
+      "username": "Dhes",
+      "email": "lourdes.orzame@gmail.com",
+      "address": {
+        "street": "Gumamela St.",
+        "suite": "Maseil-seil",
+        "city": "Umingan",
+        "zipcode": "1234"
+      },
+      "phone": "1234567890",
+      "website": "http://www.nba.com",
+      "company": {
+        "name": "IT Easy"
+      },
+      "id": 14
+    },
+    {
+      "name": "Jumar Dela Cruz",
+      "username": "Jumanzky",
+      "email": "jumardelacruz@gmail.com",
+      "address": {
+        "street": "Ilang-ilang St.",
+        "suite": "Umingan",
+        "city": "Pangasinan",
+        "zipcode": "2334"
+      },
+      "phone": "0987654321",
+      "website": "https://www.com.ph",
+      "company": {
+        "name": "IT Easy"
+      },
+      "id": 16
+    }
+  ]
+}

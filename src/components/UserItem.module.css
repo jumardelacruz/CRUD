@@ -1,0 +1,74 @@
+.tblView {
+  color: black;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 50rem;
+  margin: 2rem auto;
+  font-style: italic;
+}
+
+.alignRight {
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.divCenter {
+  position: relative;
+  left: 43%;
+}
+
+.button.close {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #d18c02;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #065f07;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
